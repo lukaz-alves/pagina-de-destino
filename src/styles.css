@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 19px;
+    width: 480px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.foto-pessoas {
+    max-width: 110%;
+    margin-left: -20px;
+    margin-bottom: 50px;
+}
+
+.interagir {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.interagir > h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.baixar {
+    background-color: rgba(3, 113, 141, 0.897);
+    color: white;
+}
+
+.descobrir {
+    background-color: rgba(116, 1, 116, 0.822);
+    color: white;
+}
+
+p {
+    line-height: 30px;
+    padding: 20px;
+}
